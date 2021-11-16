@@ -50,6 +50,7 @@ LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/include/drm
 
 include $(LIBDRM_COMMON_MK)
+LOCAL_PROPRIETARY_MODULE := false
 include $(BUILD_STATIC_LIBRARY)
 
 # Shared library for the device
